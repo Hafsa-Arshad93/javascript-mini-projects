@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.news-box {
+    background: #fff8e7;
+    border: 2px dashed #ff9800;
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.news-box:hover {
+    transform: scale(1.02);
+    background: #fff3d4;
+}
+
+#news {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e63946;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(230, 57, 70, 0.3);
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #news {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 17px;
+    }
+}
