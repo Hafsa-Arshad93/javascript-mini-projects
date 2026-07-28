@@ -2,61 +2,91 @@
 
 Welcome to my **JavaScript Mini Projects** repository!
 
-This repository contains beginner-friendly projects that I build while learning and improving my **HTML, CSS, and JavaScript** skills. Each project focuses on practicing core JavaScript concepts through real implementation, problem-solving, and responsive UI design.
+In this repository, I am building small projects while learning **HTML, CSS, and JavaScript**. These projects help me understand JavaScript concepts better by applying them in real applications.
 
 ## 📂 Projects
 
 ### 1. Responsive Calculator 🧮
 
-- Performs basic arithmetic operations.
-- Built with a responsive and user-friendly interface.
-- **Concepts practiced:**
-  - DOM manipulation
-  - Functions
-  - Event handling
-  - Expression evaluation using `eval()` *(used intentionally for learning purposes; I also understand alternative approaches for handling calculations)*
+A simple calculator that can perform basic calculations. I built this project to practice JavaScript logic and making a responsive design.
+
+**Concepts learned:**
+- DOM manipulation
+- Functions
+- Event handling
+- Using `eval()` for calculations *(for learning purpose)*
 
 ---
 
 ### 2. Breaking News Generator 📰
 
-- Generates random funny breaking news headlines.
-- Uses JavaScript arrays and random number generation.
-- **Concepts practiced:**
-  - Arrays
-  - `Math.random()`
-  - `Math.floor()`
-  - Dynamic DOM manipulation
+A fun project that creates random funny news headlines using JavaScript.
+
+**Concepts learned:**
+- Arrays
+- `Math.random()`
+- `Math.floor()`
+- Changing HTML content using JavaScript
 
 ---
 
 ### 3. Secure Password Generator 🔐
 
-- Generates strong random passwords based on user preferences.
-- Allows users to select password length, numbers, and symbols.
-- Features a copy-to-clipboard option.
-- **Concepts practiced:**
-  - Conditional statements
-  - Loops
-  - Random character generation
-  - Browser Clipboard API
-  - DOM manipulation
+A password generator that creates random passwords according to user choices. It also has a copy button to copy the password.
+
+**Concepts learned:**
+- Conditional statements
+- Loops
+- Random value generation
+- Clipboard API
+- DOM manipulation
 
 ---
 
 ### 4. Dice Roller 🎲
 
-- Simulates rolling a six-sided dice.
-- Displays a random dice face and the rolled number.
-- Responsive and interactive user interface.
-- **Concepts practiced:**
-  - Functions
-  - Event handling
-  - `Math.random()`
-  - `Math.floor()`
-  - Conditional statements (`if...else`)
-  - DOM manipulation
-  - `textContent`
+A simple dice rolling project where a random dice number and image are shown when the user clicks.
+
+**Concepts learned:**
+- Functions
+- Event handling
+- `Math.random()`
+- `Math.floor()`
+- `if...else` conditions
+- DOM manipulation
+- `textContent`
+
+---
+
+### 5. To-Do List App ✅
+
+A task management app where users can add, complete, and delete tasks. Tasks are saved using Local Storage, so they stay after refreshing the page.
+
+**Concepts learned:**
+- DOM manipulation
+- Events
+- Arrays
+- Local Storage
+- Dynamic content creation
+- JavaScript functions
+
+---
+
+### 6. Travel Guide App 🌄
+
+A place search app where users can search for destinations and get information using an API.
+
+This was my first project where I worked with real API data and learned how to handle data from external sources.
+
+**Concepts learned:**
+- Fetch API
+- Async/Await
+- Promises
+- JSON data
+- API integration
+- Optional chaining (`?.`)
+- Error handling using `try...catch`
+- DOM manipulation
 
 ---
 
@@ -70,6 +100,6 @@ This repository contains beginner-friendly projects that I build while learning 
 
 ## 🎯 Purpose
 
-The goal of this repository is to strengthen my JavaScript fundamentals by building practical mini projects, improving problem-solving skills, and documenting my continuous learning journey.
+The purpose of this repository is to improve my JavaScript skills by building projects, practicing concepts, and learning through hands-on experience.
 
-Happy Coding! 💻🚀
+Thank you for visiting my repository! 💻🚀
