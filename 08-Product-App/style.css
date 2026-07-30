@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #0ea5e9);
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Heading */
+
+h1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+
+.buttons {
+    margin-bottom: 25px;
+}
+
+button {
+    width: 150px;
+    height: 55px;
+    background: white;
+    color: #1e40af;
+    border: none;
+    border-radius: 30px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Search */
+
+input {
+    width: 300px;
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    margin: 25px 10px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Messages */
+
+#message {
+    margin: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#total {
+    margin-top: 20px;
+    color: #facc15;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Product Cards */
+
+#products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.card {
+    width: 240px;
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.04);
+}
+
+.card h3 {
+    color: #2563eb;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 17px;
+    color: #444;
+}
+
+/* Price */
+
+.card p:nth-child(2) {
+    color: #16a34a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Category Badge */
+
+.card p:nth-child(3) {
+    display: inline-block;
+    background: #0ea5e9;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}

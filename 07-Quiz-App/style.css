@@ -27,6 +27,20 @@ body {
     margin: 10px 0;
     padding: 12px;
     cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    transition: 0.3s;
+
+}
+
+
+/* selected option */
+#options button.selected {
+
+    background-color: #facc15;
+    color: black;
+    border-color: #eab308;
 
 }
 

@@ -48,7 +48,7 @@ nextBtn.addEventListener("click", () => {
 
     } else {
 
-        document.getElementById("question").textContent = "Quiz Finished 🎉";
+        document.getElementById("question").textContent = "Quiz Finished ";
 
         document.getElementById("options").innerHTML = "";
 
