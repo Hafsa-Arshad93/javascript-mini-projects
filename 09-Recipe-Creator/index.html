@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🍕 Recipe Creator</h1>
+
+        <input type="text" id="recipe-name" placeholder="Enter Recipe Name">
+
+        <textarea id="ingredients" placeholder="Enter Ingredients (comma separated)"></textarea>
+
+        <button id="create-btn">Create Recipe</button>
+
+        <hr>
+
+        <input type="text" id="new-ingredient" placeholder="Add One Ingredient">
+
+        <button id="add-btn">Add Ingredient</button>
+
+        <hr>
+
+        <button id="merge-btn">Merge Chef Ingredients</button>
+
+        <button id="copy-btn">Copy Recipe</button>
+
+        <hr>
+
+        <input type="text" id="favorite-input" placeholder="Favorite Ingredients (comma separated)">
+
+        <button id="favorite-btn">Show Favorite Ingredients</button>
+
+        <hr>
+
+        <div id="output">
+            Your recipe will appear here...
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
