@@ -1,20 +1,21 @@
-# 🚀 JavaScript Mini Projects
+# JavaScript Mini Projects
 
 Welcome to my **JavaScript Mini Projects** repository!
 
 This repository is a collection of projects I built while learning **HTML, CSS, and JavaScript**. Instead of only studying concepts, I believe the best way to learn is by building real projects. Each project helped me understand different JavaScript concepts through practical experience.
 
-As I continue learning, I'll keep adding more projects and improving my skills.
+All projects are built using **Vanilla JavaScript (ES6)** without any frameworks. As I continue learning, I'll keep improving these projects and build more advanced applications.
 
 ---
 
-# 📂 Projects
+# Projects
 
-## 🧮 1. Responsive Calculator
+## 1. Responsive Calculator
 
 A responsive calculator that performs basic arithmetic operations. This was one of my first JavaScript projects and helped me understand how JavaScript interacts with HTML.
 
 ### Concepts Practiced
+
 - DOM Manipulation
 - Functions
 - Event Handling
@@ -22,11 +23,12 @@ A responsive calculator that performs basic arithmetic operations. This was one 
 
 ---
 
-## 📰 2. Breaking News Generator
+## 2. Breaking News Generator
 
 A fun project that generates random news headlines every time the button is clicked.
 
 ### Concepts Practiced
+
 - Arrays
 - `Math.random()`
 - `Math.floor()`
@@ -34,11 +36,12 @@ A fun project that generates random news headlines every time the button is clic
 
 ---
 
-## 🔐 3. Secure Password Generator
+## 3. Secure Password Generator
 
 A password generator that creates random passwords based on user-selected options. It also includes a copy-to-clipboard feature.
 
 ### Concepts Practiced
+
 - Conditional Statements
 - Loops
 - Random Value Generation
@@ -47,11 +50,12 @@ A password generator that creates random passwords based on user-selected option
 
 ---
 
-## 🎲 4. Dice Roller
+## 4. Dice Roller
 
 A simple dice rolling application that displays a random dice number and its corresponding image.
 
 ### Concepts Practiced
+
 - Functions
 - Event Handling
 - `Math.random()`
@@ -62,11 +66,12 @@ A simple dice rolling application that displays a random dice number and its cor
 
 ---
 
-## ✅ 5. To-Do List App
+## 5. To-Do List App
 
 A simple task management application where users can add, complete, and delete tasks. Tasks are stored in Local Storage, so they remain available even after refreshing the page.
 
 ### Concepts Practiced
+
 - DOM Manipulation
 - Event Handling
 - Arrays
@@ -76,11 +81,12 @@ A simple task management application where users can add, complete, and delete t
 
 ---
 
-## 🌍 6. Travel Guide App
+## 6. Travel Guide App
 
 A destination search application that fetches travel information from an API. This was my first project using real API data.
 
 ### Concepts Practiced
+
 - Fetch API
 - Async/Await
 - Promises
@@ -92,11 +98,12 @@ A destination search application that fetches travel information from an API. Th
 
 ---
 
-## 🧠 7. Quiz App (ES Modules)
+## 7. Quiz App (ES Modules)
 
 A multiple-choice quiz application built using JavaScript ES Modules. It displays questions one by one, checks answers, tracks the score, and shows the final result.
 
 ### Concepts Practiced
+
 - ES Modules (`import` & `export`)
 - Arrays of Objects
 - Event Handling
@@ -107,11 +114,12 @@ A multiple-choice quiz application built using JavaScript ES Modules. It display
 
 ---
 
-## 🛍️ 8. Product Store (Array Methods)
+## 8. Product Store (Array Methods)
 
-A simple product store where users can view products, filter categories, search by product name, apply discounts, and calculate the total price.
+A simple product store where users can view products, filter products, search by product name, apply discounts, and calculate the total price.
 
 ### Concepts Practiced
+
 - `forEach()`
 - `filter()`
 - `map()`
@@ -123,11 +131,47 @@ A simple product store where users can view products, filter categories, search 
 
 ---
 
-🚀 More projects will be added as I continue my JavaScript learning journey.
+## 9. Recipe Creator (Destructuring, Spread & Rest)
+
+A simple recipe creator that allows users to create recipes, add ingredients, merge recipe data, and practice modern JavaScript syntax.
+
+### Concepts Practiced
+
+- Object Destructuring
+- Array Destructuring
+- Spread Operator (`...`)
+- Rest Operator (`...`)
+- Objects
+- Arrays
+- DOM Manipulation
+- Event Handling
 
 ---
 
-# 🛠️ Technologies Used
+## 10. Finance Tracker App
+
+A finance tracker application that allows users to add income and expense transactions, search transactions, delete records, and automatically calculate the current balance. The application also stores data using Local Storage.
+
+### Concepts Practiced
+
+- ES Modules
+- Arrays of Objects
+- DOM Manipulation
+- Event Handling
+- `filter()`
+- `find()`
+- `reduce()`
+- Spread Operator (`...`)
+- Local Storage
+- CRUD Operations
+
+---
+
+All 10 JavaScript mini projects are now complete. My next step is to build React mini projects and continue improving my frontend development skills.
+
+---
+
+# Technologies Used
 
 - HTML5
 - CSS3
@@ -135,14 +179,16 @@ A simple product store where users can view products, filter categories, search 
 
 ---
 
-# 🎯 Why This Repository?
+# Why This Repository?
 
 This repository documents my JavaScript learning journey through hands-on projects.
 
-My goal is not just to learn JavaScript syntax, but to understand how to solve real problems by building practical applications. With every project, I explore new concepts, improve my coding skills, and gain confidence in frontend development.
+My goal is not just to learn JavaScript syntax, but to understand how to solve real-world problems by building practical applications. With every project, I explore new concepts, improve my coding skills, and strengthen my understanding of frontend development.
+
+This repository also serves as my portfolio to showcase my progress and consistency as I continue my web development journey.
 
 ---
 
-⭐ If you found these projects helpful, consider giving this repository a star.
+If you found these projects helpful, consider giving this repository a star.
 
-Thank you for visiting! 😊
+Thank you for visiting!
